@@ -28,7 +28,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: ['http://localhost:5173', 'http://localhost:4173'],
+    origin: ['http://localhost:5173', 'http://localhost:4173', 'https://diagnostic-temp.vercel.app'],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
 }));
